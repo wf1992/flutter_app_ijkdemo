@@ -53,6 +53,8 @@ class _FijkVideoPageState extends State<FijkVideoPage> {
         "name": "武汉加油",
         "list": [
           {
+            //  rtmp : rtmp://58.200.131.2:1935/livetv/dftv
+            //  connection refused
             "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4",
             "name": "rtsp视频测试"
           },
