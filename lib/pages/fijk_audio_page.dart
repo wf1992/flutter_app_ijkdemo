@@ -51,7 +51,7 @@ class _FijkAudioPageState extends State<FijkAudioPage> {
   int _currentIndex = -1;
   String value = ''; // 每次input的值
   AudioPlayer audioPlayer = AudioPlayer();
-  String downLoadSufixName = "m4a_1.m4a";
+  String downLoadSufixName = "wav_2.wav";
 
   @override
   void initState() {

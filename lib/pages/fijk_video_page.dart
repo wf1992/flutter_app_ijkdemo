@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:fijkplayer/fijkplayer.dart';
-import 'package:fijkplayer_skin/fijkplayer_skin.dart';
-import 'package:fijkplayer_skin/schema.dart' show VideoSourceFormat;
+import 'package:flutter_app_ijkdemo/skin/fijkplayer_skin.dart';
+import 'package:flutter_app_ijkdemo/skin/schema.dart' show VideoSourceFormat;
 import 'package:flutter/services.dart';
 
-// 这里实现一个皮肤显示配置项
+ //这里实现一个皮肤显示配置项
 class PlayerShowConfig implements ShowConfigAbs {
   @override
   bool drawerBtn = true;  // 是否显示剧集按钮
