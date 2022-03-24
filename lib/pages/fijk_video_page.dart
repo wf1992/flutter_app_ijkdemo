@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fijkplayer/fijkplayer.dart';
+import 'package:fijkplayer_ijkfix/fijkplayer_ijkfix.dart';
 import 'package:flutter_app_ijkdemo/skin/fijkplayer_skin.dart';
 import 'package:flutter_app_ijkdemo/skin/schema.dart' show VideoSourceFormat;
 import 'package:flutter/services.dart';
@@ -55,8 +55,10 @@ class _FijkVideoPageState extends State<FijkVideoPage> {
           {
             //  rtmp : rtmp://58.200.131.2:1935/livetv/dftv
             //  connection refused
-            "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4",
-            "name": "rtsp视频测试"
+//            "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4",
+//            "name": "rtsp视频测试"
+            "url": "https://stream7.iqilu.com/10339/upload_transcode/202002/18/20200218114723HDu3hhxqIT.mp4",
+            "name": "视频测试1"
           },
           {
             "url": "https://stream7.iqilu.com/10339/upload_transcode/202002/18/20200218093206z8V1JuPlpe.mp4",

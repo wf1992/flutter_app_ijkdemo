@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:fijkplayer/fijkplayer.dart';
+import 'package:fijkplayer_ijkfix/fijkplayer_ijkfix.dart';
 import 'package:flutter/material.dart';
 
 //收集的skin ，暂时没用到，但是可以根据这个，自己去设置skin

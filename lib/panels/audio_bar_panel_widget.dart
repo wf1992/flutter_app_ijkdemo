@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:math';
-import 'package:fijkplayer/fijkplayer.dart';
+import 'package:fijkplayer_ijkfix/fijkplayer_ijkfix.dart';
 
 // 自己设置的音频播放的panel 样式
 class AudioBarPanelWidget extends StatefulWidget {

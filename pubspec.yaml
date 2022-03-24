@@ -39,10 +39,12 @@ dependencies:
   path_provider: 2.0.9
   dio: ^4.0.4
   audioplayers: ^0.20.1
-  fijkplayer: #0.10.1
-    git:
-      url: https://github.com/wf1992/smt_fijkplayer.git
+#  fijkplayer: #0.10.1
+#    git:
+#      url: https://github.com/wf1992/smt_fijkplayer.git
     #path: /Users/wangfei/desktop/fijkplayer
+  fijkplayer_ijkfix: 0.0.1
+    #path: /Users/wangfei/Desktop/myIJK/fijkplayer_ijkfix
 
   wakelock: ^0.5.2
 dev_dependencies:

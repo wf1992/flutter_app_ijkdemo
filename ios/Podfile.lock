@@ -1,7 +1,7 @@
 PODS:
   - audioplayers (0.0.1):
     - Flutter
-  - fijkplayer (0.0.1):
+  - fijkplayer_ijkfix (0.0.1):
     - Flutter
   - Flutter (1.0.0)
   - path_provider_ios (0.0.1):
@@ -11,7 +11,7 @@ PODS:
 
 DEPENDENCIES:
   - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
-  - fijkplayer (from `.symlinks/plugins/fijkplayer/ios`)
+  - fijkplayer_ijkfix (from `.symlinks/plugins/fijkplayer_ijkfix/ios`)
   - Flutter (from `Flutter`)
   - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
   - wakelock (from `.symlinks/plugins/wakelock/ios`)
@@ -19,8 +19,8 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   audioplayers:
     :path: ".symlinks/plugins/audioplayers/ios"
-  fijkplayer:
-    :path: ".symlinks/plugins/fijkplayer/ios"
+  fijkplayer_ijkfix:
+    :path: ".symlinks/plugins/fijkplayer_ijkfix/ios"
   Flutter:
     :path: Flutter
   path_provider_ios:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   audioplayers: 455322b54050b30ea4b1af7cd9e9d105f74efa8c
-  fijkplayer: 81b829b8158138fd98f8fdb1157229f055b13488
+  fijkplayer_ijkfix: 85a2935d0a3f695747148c0643f9f8c6f4d10131
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
   path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
   wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f

@@ -3,7 +3,7 @@ import 'dart:async';
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:fijkplayer/fijkplayer.dart';
+import 'package:fijkplayer_ijkfix/fijkplayer_ijkfix.dart';
 import 'package:flutter/material.dart';
 import 'package:wakelock/wakelock.dart';
 
