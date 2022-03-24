@@ -177,10 +177,6 @@ class _FijkAudioPageState extends State<FijkAudioPage> {
             ],
           )
       ),
-      floatingActionButton: FloatingActionButton(onPressed: (){
-        play();
-      },
-      child: Text('audioPlayer'),),
     );
   }
 
@@ -198,18 +194,6 @@ class _FijkAudioPageState extends State<FijkAudioPage> {
 
   }
 
-  ///audioPlayer 播放
-  play() async {
-    var dir = await getApplicationDocumentsDirectory();
-    int result = await audioPlayer.setUrl("${dir.path}/$downLoadSufixName");
-    await audioPlayer.resume();
-    if (result == 1) {
-      audioPlayer.onAudioPositionChanged.listen((event) {
 
-      });
-    } else {
-      print('play failed');
-    }
-  }
 
 }
